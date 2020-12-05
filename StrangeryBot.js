@@ -13,8 +13,7 @@ const CommandArgs = require("./src/middlewares/commandArgs")
 // Variables
 const StrangeryBot = new Telegraf("BOT_TOKEN") // Bot instance
 const Admins = [
-    123,
-	456
+    123, 456
 ]
 const StrangeryBotLobby = new Lobby(false, Admins) // Declaring Lobby
 const Logger = new ChatLogger("./logs/")
