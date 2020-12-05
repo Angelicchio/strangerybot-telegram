@@ -1,5 +1,4 @@
 // Imports
-
 const Telegraf = require("telegraf")
 const {Markup, Extra} = require("telegraf")
 const http = require("http")
@@ -21,14 +20,14 @@ const Banned = []
 
 var inQueue = 0
 var inChat = 0
-// Bot middlewares
 
+
+// Bot middlewares
 StrangeryBot.use(CommandArgs())
 
 
 // Declaring inlineKeyboard formats
 const SearchMenu = Extra.HTML().markup((Markup) => Markup.inlineKeyboard([Markup.callbackButton(Locale.searchStranger, "search_stranger")]))
-
 const StopSearchMenu = Extra.HTML().markup((Markup) => Markup.inlineKeyboard([Markup.callbackButton(Locale.stopSearching, "stop_searching")]))
 
 
