@@ -1,0 +1,19 @@
+{
+  "alreadyChatting": "You're already chatting with someone.",
+  "alreadyInQueue": "You're already in queue.",
+  "botChatPrefix": "<b>Bot:</b> ",
+  "chatEnded": "Your partner left the chat.",
+  "justBanned": "You were banned. Your ban will last until StrangeryBot's restart.",
+  "notInChat": "You're not chatting with anyone. Press the button to start searching a person to chat with.",
+  "partnerBanned": "Your partner was banned from using StrangeryBot. We are sorry for the inconvenience but he was a fucking scum.",
+  "searchAgainStranger": "Search stopped, press the button to start searching again.",
+  "searchingStranger": "I'm searching someone to pair with you. If you want to stop, press the button.",
+  "searchStranger": "Search for stranger 🔍",
+  "startSearching": "Press the button to start searching a person to chat with.",
+  "stopSearching": "Stop searching ❌",
+  "strangerChatPrefix": "<b>Stranger:</b> ",
+  "strangerSentPhoto": "Stranger sent you a photo.",
+  "strangerSentVideo": "Stranger sent you a video",
+  "userBanned": "You are banned from using StrangeryBot.",
+  "userFound": "Stranger found! Happy chatting."
+}
